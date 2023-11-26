@@ -24,7 +24,7 @@ const WorkoutForm = ({show,setShow}) => {
       const workout = {title, load, reps}
       const users = JSON.parse(localStorage.getItem('user'))
   
-      const response = await ax.post('ninjadojoshifuyoshimarioluigipeachbowser/api/workouts/' ,workout,{ headers: {
+      const response = await ax.post('https://f5-gules.vercel.app/api/workouts/' ,workout,{ headers: {
         'Authorization': `Bearer ${users.token}`
       }})
      
