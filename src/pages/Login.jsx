@@ -16,7 +16,7 @@ const Login = () => {
       setIsLoading(true)
    setError(null)
    
-   const response = await ax.post('http://localhost:4000/api/user/login' ,{email,password} )
+   const response = await ax.post('ninjadojoshifuyoshimarioluigipeachbowser/api/user/login' ,{email,password} )
  
   
  // save the user to local storage
