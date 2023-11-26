@@ -15,7 +15,7 @@ const Home = () => {
   useEffect(() => {
     const fetchWorkouts = async () => {
       try {
-        let response = await ax.get("ninjadojoshifuyoshimarioluigipeachbowser/api/workouts", {
+        let response = await ax.get("https://f5-gules.vercel.app/api/workouts", {
           headers: {'Authorization': `Bearer ${users.token}`},
         });
         console.log(response.data)
