@@ -16,7 +16,7 @@ const Signup = () => {
       setIsLoading(true)
    setError(null)
    
-   const response = await ax.post('ninjadojoshifuyoshimarioluigipeachbowser/api/user/signup' ,{email,password} )
+   const response = await ax.post('https://f5-gules.vercel.app/api/user/signup' ,{email,password} )
  
   
  // save the user to local storage
